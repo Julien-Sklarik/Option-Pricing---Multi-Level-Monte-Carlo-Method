@@ -5,7 +5,7 @@ This repository contains a Python project focused on the evaluation of an Asian 
 ## Project Overview
 
 We wish to evaluate the price of an Asian option:
-$C = \mathbb E\left[e^{-rT}(\frac{1}{k}\sum_{i=1}^{k}S(t_i)-K)^+\right]$
+$C = \mathbb E\left[e^{-rT}(\frac{1}{k}\sum_{1≤i≤k}S(t_i)-K)^+\right]$
 
 The project is based on the CIR (Cow, Ingersoll, Ross) model:
 
